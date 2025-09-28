@@ -1026,7 +1026,8 @@ footer .remark-txt span {
     margin-right: 10px;
   }
 }
-@media screen and (max-width: 932px) and (orientation: landscape) {
+
+@media screen and (max-width: 932px)  {
  
   nav {
     display: block;
@@ -2009,5 +2010,6 @@ body.about .navbar-static .navbar-static-cover {
     width: 100%;
   }
 }
+
 
 
