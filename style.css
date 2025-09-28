@@ -1026,6 +1026,253 @@ footer .remark-txt span {
     margin-right: 10px;
   }
 }
+@media screen and (max-width: 932px) and (orientation: landscape) {
+  @media screen and (max-width: 750px) {
+  nav {
+    display: block;
+
+    max-width: 100%;
+  }
+
+  .navbar-static {
+    width: 100%;
+  }
+
+  .navbar-static .navbar-static-cover ul {
+    display: none;
+  }
+
+  .navbar-static .navbar-static-cover .container h3 a {
+    display: none;
+  }
+
+  .navbar-static .navbar-texts {
+    flex-direction: column-reverse;
+
+    bottom: 20%;
+
+    padding: 0px 3%;
+    overflow-x: hidden;
+  }
+
+  .navbar-static .navbar-texts .text-left {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar-static .navbar-texts .text-left h1 {
+    width: 100%;
+
+    font-size: 25px;
+    text-transform: capitalize;
+    line-height: 28px;
+  }
+
+  .navbar-static .navbar-texts .text-right {
+    width: 100%;
+    direction: ltr;
+    text-align: left;
+  }
+
+  .navbar-static .navbar-texts .text-right h1 {
+    margin-left: -9px;
+  }
+
+  .navbar-static .navbar-texts .text-right p {
+    text-align: left;
+
+    width: 100%;
+  }
+
+  .about-us {
+    padding: 50px 2%;
+  }
+
+  .about-us .aboutus {
+    text-align: center;
+    padding: 60px 0px;
+  }
+
+  .about-us .aboutus-services {
+    flex-direction: column;
+
+    align-items: center;
+    gap: 40px 0px;
+  }
+
+  .about-us .personal-port {
+    flex-direction: column;
+    padding: 30px 2%;
+    gap: 10px 0%;
+  }
+
+  .about-us .personal-port .left h1 {
+    text-align: left;
+
+    font-size: 27px;
+
+    max-width: none;
+    float: none;
+  }
+
+  .about-us .personal-port .left p {
+    text-align: left;
+
+    max-width: none;
+    float: none;
+  }
+
+  .about-us .personal-port .center img {
+    display: none;
+  }
+
+  .about-us .personal-port .right p {
+    padding-bottom: 20px;
+    max-width: none;
+  }
+
+  .about-us .searchengine {
+    flex-direction: column;
+    gap: 20px 0%;
+
+    padding: 38px 1%;
+  }
+
+  .about-us .searchengine .search1 {
+    justify-content: flex-start;
+  }
+
+  .about-us .searchengine .search1 .left span {
+    font-size: 45px;
+  }
+
+  .about-us .searchengine .search1 .right h3 {
+    width: auto;
+  }
+
+  .ourworks {
+    padding: 30px 3%;
+  }
+
+  .ourworks .services-contianer {
+    padding: 10px 0px;
+  }
+
+  .ourworks .services-contianer .contianer-1 {
+    flex-direction: column;
+
+    align-items: flex-start;
+    width: 70%;
+
+    gap: 20px 2%;
+  }
+
+  .ourworks .services-contianer .contianer-2 {
+    flex-direction: column-reverse;
+
+    align-items: flex-start;
+    width: 70%;
+
+    gap: 20px 2%;
+  }
+
+  .ourworks .services-contianer .contianer-1 .img-samp,
+  .ourworks .services-contianer .contianer-2 .img-samp {
+    padding: 30px;
+    margin-top: 30px;
+  }
+
+  .ourworks .services-contianer .contianer-1 .text11,
+  .ourworks .services-contianer .contianer-2 .text11 {
+    width: auto;
+  }
+
+  .clients-comments {
+    padding: 20px 2%;
+  }
+
+  .clients-comments h1 {
+    font-size: 30px;
+  }
+
+  .clients-comments .comment-contianer {
+    flex-direction: column;
+  }
+
+  .project-cover {
+    padding: 5px 1%;
+  }
+  .project-cover .project {
+    padding: 20px 20px;
+  }
+
+  .project-cover .project .project-text {
+    width: auto;
+  }
+
+  body.home-page .recent-blog {
+    padding: 60px 3%;
+  }
+
+  body.home-page .recent-blog .blog-contianer {
+    flex-direction: column;
+    gap: 50px 0%;
+  }
+
+  body.home-page .recent-blog .blog-contianer .blog1 {
+    width: 100%;
+  }
+
+  body.home-page .recent-blog .blog-contianer .blog1 h3 {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.568);
+  }
+
+  footer {
+    padding: 60px 3%;
+  }
+
+  footer .ref-contianer {
+    flex-direction: column;
+  }
+
+  footer .ref-contianer .avo {
+    width: auto;
+  }
+
+  footer .ref-contianer .avo .logo {
+    gap: 20px 3%;
+  }
+
+  footer .ref-contianer .community {
+    margin-right: 0px;
+  }
+
+  footer .ref-contianer .company {
+    margin-right: 0px;
+  }
+
+  footer .ref-contianer .question {
+    width: auto;
+  }
+
+  footer .ref-contianer .question h4 {
+    margin-left: 0px;
+  }
+
+  footer .ref-contianer .question .address {
+    display: flex;
+    gap: 0px 10px;
+  }
+
+  footer .ref-contianer .question span {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+}
+
+}
 
 /* ====================  ABOUT PAGE STYLES  =================== */
 
@@ -1763,3 +2010,4 @@ body.about .navbar-static .navbar-static-cover {
     width: 100%;
   }
 }
+
